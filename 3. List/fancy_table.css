@@ -1,0 +1,23 @@
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers th{
+    background-color:green; /*#04AA6D*/
+    color: white;
+    text-align: left;
+    /* padding: ; */
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#customers th, #customers td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#customers tr:hover{background-color: #ddd;}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
