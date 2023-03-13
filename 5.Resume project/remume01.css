@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: black;
+}
